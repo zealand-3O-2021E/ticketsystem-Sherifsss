@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryTicketSystem
 {
+    /// <summary>
+    /// Car class that inherits from the Vehicle base class
+    /// </summary>
     public class Car : Vehicle
     {
-          
+          /// <summary>
+          /// Car class constructor that takes two parameters
+          /// </summary>
+          /// <param name="licensePlate"></param>
+          /// <param name="dateTime"></param>
 
         public Car(string licensePlate, DateTime dateTime) : base(licensePlate, dateTime)
         {
@@ -17,7 +24,7 @@ namespace ClassLibraryTicketSystem
         }
 
         /// <summary>
-        /// License plate property modified so it has a max length of 7
+        /// The price method from the base class being overriden here so that the needed message is applied
         /// </summary>        
 
 
@@ -30,8 +37,7 @@ namespace ClassLibraryTicketSystem
             return 240;
         }
         /// <summary>
-        /// Price method that returns a double value
-        /// depending on if the brobiz is apllied it will give a discount
+        /// The vehicle type method is being overriden here so that we get the desired return
         /// </summary>
         /// <returns></returns>
 

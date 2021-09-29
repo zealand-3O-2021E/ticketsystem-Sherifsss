@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryTicketSystem</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibraryTicketSystem.Car">
+            <summary>
+            Car class that inherits from the Vehicle base class
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.#ctor(System.String,System.DateTime)">
+            <summary>
+            Car class constructor that takes two parameters
+            </summary>
+            <param name="licensePlate"></param>
+            <param name="dateTime"></param>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.Price">
+            <summary>
+            The price method from the base class being overriden here so that the needed message is applied
+            </summary>        
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.VehicleType">
+            <summary>
+            The vehicle type method is being overriden here so that we get the desired return
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.MC">
+            <summary>
+            MC class that inherits from the Vehicle base class
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.#ctor(System.String,System.DateTime)">
+            <summary>
+            MC class constructor that takes two parameters
+            </summary>
+            <param name="licensePlate"></param>
+            <param name="date"></param>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.Price">
+            <summary>
+            The abstract price method from the base class is being overriden 
+            if the brobiz is active (in this case it is) there is a discount of 5% applied
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.VehicleType">
+            <summary>
+            the veichle type method being overriden here so that it would display the needed message (MC)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Vehicle">
+            <summary>
+            This is the base class, it has 3 properties : License plate, Date and Brobiz. It implements these properties to the child classes.
+            Since it is an abstract class we can and do have some abstract methods in here
+            </summary>
+        </member>
+        <member name="F:ClassLibraryTicketSystem.Vehicle._licensePlate">
+            <summary>
+            instance field for license plate
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.#ctor(System.String,System.DateTime)">
+            <summary>
+            Base class constructor that takes 2 parameters
+            We also check if the license plate is longer than 7 characters, if it is the system will throw an argument exception
+            It also initializes the brobiz discount which is by default false
+            </summary>
+            <param name="licensePlate"></param>
+            <param name="dateTime"></param>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.LicensePlate">
+            <summary>
+            License plate property that will be initialized in the child classes, makes sure there arent more than 7 characters
+            Since properties dont support logic we have an instance field for this
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Brobiz">
+            <summary>
+            Brobiz is a boolean discount property which would be false by default
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.Price">
+            <summary>
+            An abstract method which is to be implemented in the children classes, its return type is a double
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.VehicleType">
+            <summary>
+            An abstract method which is to be implemented in the children classes, its return type is a string
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

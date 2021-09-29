@@ -5,7 +5,15 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryTicketSystem", "ClassLibraryTicketSystem\ClassLibraryTicketSystem.csproj", "{E03253D9-5B87-43D4-A478-8ED05ED2C266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket_System_Test", "Ticket_System_Test\Ticket_System_Test.csproj", "{270DB7F5-3817-497A-838D-4AF9A14D7B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket_System_Test", "Ticket_System_Test\Ticket_System_Test.csproj", "{270DB7F5-3817-497A-838D-4AF9A14D7B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storebæltsbroen", "Storebæltsbroen\Storebæltsbroen.csproj", "{62E7BD02-26AA-4C52-8A45-713BA94CAF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorebæltsbroenTests", "StorebæltsbroenTests\StorebæltsbroenTests.csproj", "{1668CF5B-2F41-410F-9740-84C0E47754A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OresundbronLibrary", "OresundbronLibrary\OresundbronLibrary.csproj", "{EEC11B8E-E846-4452-97CE-F7D7A358DAFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OresundbronLibraryTests", "OresundbronLibraryTests\OresundbronLibraryTests.csproj", "{A9F4A046-8DEF-4486-AF24-3409C63191A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{270DB7F5-3817-497A-838D-4AF9A14D7B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{270DB7F5-3817-497A-838D-4AF9A14D7B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{270DB7F5-3817-497A-838D-4AF9A14D7B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E7BD02-26AA-4C52-8A45-713BA94CAF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E7BD02-26AA-4C52-8A45-713BA94CAF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E7BD02-26AA-4C52-8A45-713BA94CAF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E7BD02-26AA-4C52-8A45-713BA94CAF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1668CF5B-2F41-410F-9740-84C0E47754A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1668CF5B-2F41-410F-9740-84C0E47754A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1668CF5B-2F41-410F-9740-84C0E47754A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1668CF5B-2F41-410F-9740-84C0E47754A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC11B8E-E846-4452-97CE-F7D7A358DAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC11B8E-E846-4452-97CE-F7D7A358DAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC11B8E-E846-4452-97CE-F7D7A358DAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC11B8E-E846-4452-97CE-F7D7A358DAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F4A046-8DEF-4486-AF24-3409C63191A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F4A046-8DEF-4486-AF24-3409C63191A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F4A046-8DEF-4486-AF24-3409C63191A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F4A046-8DEF-4486-AF24-3409C63191A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
