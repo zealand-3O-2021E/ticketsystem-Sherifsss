@@ -12,7 +12,10 @@ namespace OresundbronLibrary
             Date = dateTime;
             Brobiz = false;
         }
-
+        /// <summary>
+        /// Overrides price lel.
+        /// </summary>
+        /// <returns></returns>
         public override double Price()
         {
             if(Brobiz)
