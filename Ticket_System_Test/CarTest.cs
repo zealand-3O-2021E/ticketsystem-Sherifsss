@@ -20,7 +20,7 @@ namespace Ticket_System_Test
         /// a test method for testing the default price of the car which is 240
         /// </summary>
         [TestMethod]
-        public void PriceTest()
+        public void PriceTest_Is240()
         {
             Car c = new Car("1234567", DateTime.Now);
             c.Brobiz = false;
